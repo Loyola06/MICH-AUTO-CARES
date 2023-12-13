@@ -1,0 +1,147 @@
+#firstsection {
+    background-color: #283149;
+ 
+   
+}
+.navbar {
+    padding-bottom: 0 0 4.5rem;
+}
+.brandname {
+    font-size: 1.8rem;
+    font-family: 'Audiowide';
+    color: #fff;
+}
+
+
+.nav-item {
+    padding: 0 18px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+ #secondsec {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* width: 100rem; */
+    /* height: 35rem; */
+    color: #fff;
+    filter: brightness
+ }   
+
+ .cardtxt {
+    font-size: 1.2rem;
+    font-weight: bold;
+ }
+
+ @media only screen and (max-width: 600px) {
+    #secondsec {
+     
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .car-sale {
+        width: 200px;
+        height: 230px;
+    }
+
+    .txt1 {
+        font-size: 1rem
+    }
+/* these are the carousel slidefor each car sales */ 
+
+.carousini {
+    width: 100% 
+
+}
+    #thirdsec {
+        padding-bottom: 50px;
+    }
+
+    .moadlimi {
+        width: 100%;
+    }
+
+    .moad2 {
+        width: 100%;
+    }
+
+    .moad3 {
+        width: 100%;
+    }
+
+    .moad4 {
+ width: 100%;
+    }
+
+    .moad5 {
+        width: 100%;
+    }
+
+    .moad6 {
+        width: 100%;
+    }
+
+    .moad7 {
+        width: 100%;
+    }
+
+    .moad8 {
+        width: 100%;
+    }
+
+    .moad9 {
+        width: 100%;
+    }
+   
+    .moad10 {
+       width: 100%;
+    }
+
+    .moad11 {
+        width: 100%;
+
+    }
+    
+    .moad12 {
+        width: 100%;
+    }
+
+    .hd2txt {
+        font-size: 1.3rem;
+    
+    }
+    
+    .pd2txt {
+    font-size: 1.1rem;
+    }
+
+    p {
+        font-size: 1.2;
+    }
+}
+
+#thirdsec {
+    padding-top: 5px;
+    background-color: gray;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.txt1 {
+    font-size: 2rem;
+}
+
+.hd2txt {
+    font-size: 1.2rem;
+
+}
+
+.pd2txt {
+font-size: 1.1rem;
+}

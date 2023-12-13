@@ -1,0 +1,492 @@
+
+
+#firstsection {
+    background-color: #283149;
+ 
+   
+}
+.navbar {
+    padding-bottom: 0 0 4.5rem;
+
+}
+.brandname {
+    font-size: 1.8rem;
+    font-family: 'Audiowide';
+    color: #fff;
+}
+
+
+
+.modal-title {
+    font-size: 1.5rem;
+    font-family: math;
+    font-weight: bold;
+}
+
+.booking {
+    font-size: 1rem;
+    font-family: cursive;
+}
+
+.subi {
+    width: 100px;
+}
+
+
+.nav-item {
+    padding: 0 18px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+
+
+.app {
+
+    padding-top: 10px;
+    padding-left: 70px;
+   
+}
+#carouselid {
+    
+    padding-top: 1px;
+    padding-bottom: -3px
+   
+}
+
+.c-item {
+height: 500px;
+}
+
+.c-img {
+height: 100%; 
+object-fit: cover;
+filter: brightness(0.6);
+}
+
+
+@keyframes fade-bottom {
+    0% {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes fade-left {
+    0% {
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes fade-right {
+    0% {
+      transform: translateX(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+
+#cardd {
+    background-color: #FFF6F6;
+    padding-top: 30px;
+    color: black;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    animation: fade-right 1s ease-in;
+   
+}
+
+.carditself {
+    padding-left: 10px;
+}
+
+
+
+.card-title {
+    /* font-family: ui-sans-serif; */
+    font-size: 1.8rem;
+    font-family: Agbalumo;
+}
+
+
+.card-text {
+    font-family: system-ui;
+    font-size: large;
+    
+}
+.totruck {
+    width: 400px;
+}
+
+
+
+.icon {
+    color: #303841;
+
+}
+
+.btn1 {
+    margin-left: 10px;
+  width: 300px;
+  animation: grow-and-shrink 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.brdlogo {
+
+    width: 400px;
+    filter: brightness(1);
+  
+}
+
+.maincard {
+    padding-left: 10px;
+    width: 100px;
+}
+
+.icon:hover {
+    color: royalblue;
+}
+
+.mac {
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: bold;
+    font-family: inherit;
+}
+
+.pmac {
+    text-align: center;
+    font-size: 1.7rem;
+    padding-left: 10px;
+
+}
+
+@keyframes fade-down {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px) scale(0.9);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+
+
+@keyframes fade-In {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+#textsmall {
+     background-color: #2E4F4F;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     color: #fff;
+     animation: fade-down 0.5s 0.4s backwards;
+}
+
+
+#whywe {
+    background-color: #CBE4DE;
+     
+}
+.text1 {
+    padding-top: 10px;
+  padding-left: 20px;
+  font-size: 2rem;
+
+  padding-bottom: 10px;
+  
+}
+
+
+.text2 {
+  padding-left: 20px;
+  font-size: 1.3rem;
+
+ 
+}
+
+p{
+    padding-left: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+@keyframes grow-and-shrink {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.3);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+
+#thirdsec {
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.thirdtext1 {
+    text-align: center;
+   
+    font-size: 2.3rem;
+  
+}
+
+.thirdtext2 {
+    text-align: center;
+    text-size-adjust: 10px;
+    padding-right: 10px;
+    font-size: 1.9rem;
+    font-family: cursive;
+}
+
+.brandstext {
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+ 
+#brandssec {
+
+    background-color: #ffeed9;
+    padding-top: 10px;
+}
+
+
+.symbol {
+        width: 400px;
+        background-color: #ffeed9;
+        object-fit: cover;
+        height: 200px;
+        padding-top: 20px;
+}
+
+.listsymbol {
+    font-family: cursive;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+
+}
+
+#clients {
+    background-color: #ffffdd;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.clienttext {
+    font-weight: bolder;
+    font-size: 1.8rem;
+    padding-bottom: 10px;
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+#breakdown {
+    background-color: #B6BBC4;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    
+}
+
+.brktext {
+    font-size: 1.7rem;
+    font-weight: bold;
+    font-style: oblique;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.foot1 {
+    padding-top: 20px;
+    padding-left: 20px;
+
+}
+
+.last {
+    font-size: 1.7rem;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.textcon {
+    font-size: 1.5rem;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+padding-top: 20px;
+}
+
+.mapfoot {
+    text-align: center;
+    background-color: white;
+}
+
+.map {
+    width: 450px;
+    height: 380px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.reveal {
+    position: relative;
+    opacity: 0;
+  }
+  
+  .reveal.active {
+    opacity: 1;
+  }
+  .active.fade-bottom {
+    animation: fade-bottom 1s ease-in;
+  }
+
+  .active.fade-left {
+    animation: fade-left 1s ease-in;
+  }
+  .active.fade-right {
+    animation: fade-right 1s ease-in;
+  }
+
+  .active.fade-down {
+    animation: fade-down 1s ease-in-out;
+  }
+
+  .active.fade-In {
+    animation: fade-In 2s ease-out;
+  }
+
+
+  #scrollToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #283149;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#scrollToTopBtn:hover {
+    background-color: #1B4242;
+}
+
+#lastsec {
+  background-color: grey;
+}
+
+
+.hedd1 {
+  padding-left: 20px;
+}
+.hedd11 {
+  padding-left: 20px;
+}
+.nav1br {
+float: left;
+padding-top: 20px;
+color: #fff;
+}
+.thirdsecion {
+  background-color: grey;
+  overflow: hidden;
+}
+
+.nava11 {
+  float: right;
+  display: block;
+  color: gray;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.facebook1 {
+color: 	#1877F2;
+background-color: #fff;
+}
+
+.twitter1 {
+color:  #1DA1F2;
+background-color: #fff;
+}
+
+.instagram1 {
+color:  #cd486b ;
+background-color: #fff;
+}
+
+.linkedin1 {
+color: #0077b5;
+background-color: #fff;
+}
+.nava11:hover {
+ 
+  color: blue;
+}
+
+@media screen and (max-width: 600px) {
+  .nava11 {
+            
+    width: 100%;
+}
+
+
+  
+.nav1br {
+float: left;
+width: 100%;
+color: #fff;
+}
+
+.hedd1 {
+font-size: 1rem;
+}
+
+.hedd1 {
+padding-left: 35%;
+}
+
+.hedd11 {
+padding-left: 25%;
+}
+}
+

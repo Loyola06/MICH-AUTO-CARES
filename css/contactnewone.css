@@ -1,0 +1,94 @@
+#firstsection {
+    background-color: #283149;
+ 
+   
+}
+.navbar {
+    padding-bottom: 0 0 4.5rem;
+}
+.brandname {
+    font-size: 1.8rem;
+    font-family: 'Audiowide';
+    color: #fff;
+}
+
+
+.nav-item {
+    padding: 0 18px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.modal-title {
+    color: black;
+}
+
+.booking {
+    color: black;
+}
+ 
+ section {
+    background-color: #252B48;
+    color: #fff;
+}
+
+.firsty {
+    padding-top: 20px;
+    justify-content: center;
+}
+
+.coni1 {
+    padding-top: 20px;
+}
+
+.coni2 {
+    padding-top: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+    .coni1 {
+        width: 100%;
+    }
+
+
+}
+
+.txt1 {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.icconstyl {
+    color: #FFE194;
+}
+
+.icconstyl:hover {
+    color: #071952;
+}
+
+.icconsty2 {
+    padding-top: 10px;
+    color: #FFE194;
+}
+
+.icconsty2:hover {
+    color: #071952;
+}
+
+.icconsty3 {
+    color: #FFE194;
+    padding-top: 10px;
+} 
+
+.icconsty3:hover {
+    color: #071952;
+}
+
+.txt1i {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.txt1i:hover {
+    color: #071952;
+}
