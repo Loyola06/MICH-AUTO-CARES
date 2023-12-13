@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/firststyles.css">
+    <title>Mich Auto Cares</title>
+    <link href='https://fonts.googleapis.com/css?family=Caprasimo' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Balsamiq Sans' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Bagel Fat One' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollTrigger/1.0.6/ScrollTrigger.min.js" integrity="sha512-+LXqbM6YLduaaxq6kNcjMsQgZQUTdZp7FTaArWYFt1nxyFKlQSMdIF/WQ/VgsReERwRD8w/9H9cahFx25UDd+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="
+    https://cdn.jsdelivr.net/npm/split-type@0.3.4/umd/index.min.js
+    "></script>
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.29/bundled/lenis.min.js"></script> 
+</head>
+<body>     
+
+
+
+    <section id="firstsection">
+        <!-- Nav bar plus the first background -->
+       
+<!-- <div class="container"> -->
+        <nav class=" navbar navbar-expand-lg  navbar-light">
+            <a href="first.html" class="navbar-brand">
+            <img class="logomic" src="images/logomichcopy1.png" width="250px" height="180px">
+           
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#coll">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="coll">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <h1 class="brandname">MICH AUTO CARES</h1>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="first.html" style="color: #fff;" ><u>Home</u></a>
+                    </li>
+                 
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contactnewone.html" style="color: #fff;"><u>Contact</u></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="thirdabout.html" style="color: #fff;"><u>About Us</u></a>
+                    </li>
+                    <li class="app nav-item">
+                        <button type="button" class=" btn1 btn btn-dark btn-lg" data-bs-toggle="modal" data-bs-target="#myModal">
+                            Book an Appointment
+                          </button>
+                        </div>
+                        
+                        <!-- The Modal -->
+                        <div class="modal fade" id="myModal">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                        
+                              <!-- Modal Header -->
+                              <div class="modal-header">
+                                <h4 class="modal-title">Book an appointment</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                              </div>
+                        
+                              <!-- Modal body -->
+                              <div class="modal-body">
+                               <form method="post" enctype="text/plain" action="mailto:michautocares@gmail.com">
+                               <div class="row">
+                                <div class="col-sm-6">
+                                  <p class="booking">Name</p>
+                                   <input type="text" name="name" id="fname" placeholder="Your Name" required>
+                                     <hr>
+                                       <p class="booking"> Appointment Date</p>
+                                          <input type="date" name="date" id="cdate">
+                                
+                              
+                                               <hr>
+                                           </div>
+                          
+                            
+                                                <div class="col-sm-6">
+                                                       <p class="booking" >Email Address</p>
+                            
+                                                    <input type="email" name="mail" placeholder="Your Email" required>
+                                <hr>
+                                       <p class="booking">Phone Number</p>
+                                    <input type="tel" name="teli" id="teli" placeholder="Number"required>
+                        
+                                       </div>
+                                              <div class="form-group">
+                                      <textarea name="message" class="form-control" id="message" cols="30" rows="8" placeholder="Complaint" required></textarea>
+                                           </div>
+                                                   </div>
+                                                         <hr>
+                                                             <!-- <button type="button" class="subi btn btn-danger btn-lg" data-bs-dismiss="modal">Submit</button> -->
+                                                             <input type="submit" class="subi btn btn-danger btn-lg" name="submit" id="">
+                        
+                     
+                  
+                                          </form>
+                                  </div>
+
+        
+<!-- </div> -->
+    </section>
+
+    <section id="carouselid">
+        <!-- Carousel id section -->
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active c-item " data-bs-interval="1000">
+                <img src="images/pexels1.jpg" class="d-block w-100 c-img" alt="...">
+                <div class="carousel-caption top-0 mt-4">
+                  <h1 class="display-0 fw-bold text-capitalize" data-animation="fadeInUp" data-animation-delay="0.2s">Discover the hidden world</h1>
+                  <button class="btn btn-dark px-4 py-2 fw-5 mt-3"><i class="fa-solid fa-info"></i>   See More</button>
+                 
+                </div>
+              </div>
+              <div class="carousel-item c-item" data-bs-interval="1000">
+                <img src="images/pexels2.jpg" class="d-block w-100 c-img" alt="...">
+                <div class="carousel-caption top-0 mt-4">
+                    <h1 class="display-0 fw-bold text-capitalize">Explore Our Premium Sales</h1>
+                    <button class="btn btn-dark px-4 py-2 fw-5 mt-3"><i class="fa-solid fa-info"></i> See More</button>
+                   
+                  </div>
+              </div>
+              <div class="carousel-item c-item" data-bs-interval="1000">
+                <img src="images/pexels3.jpg" class="d-block w-100 c-img" alt="...">
+                <div class="carousel-caption top-0 mt-4">
+                    <h1 class="display-0 fw-bold text-capitalize">Bring Your Car Fantasy to Life</h1>
+                    <button class="btn btn-dark px-4 py-2 fw-5 mt-3"><i class="fa-solid fa-info gp-2"></i> See More</button>
+                   
+                  </div>
+              </div>
+            </div>
+           
+          </div>
+     
+    </section>
+
+
+    <section  id="cardd">
+<div class="container reveal fade-bottom">
+    <div class="row gy-3">
+        <div class="col-sm-4">
+            <div class="card">
+                <img src="images/slider-img.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title" style="font-family: 'Bagel Fat One';">Fix</h5>
+                  <p class="card-text" style="font-family: 'Balsamiq Sans';">We Fix Automobiles.</p>
+                  <a href="#firstsection" class="btn btn-primary">Book An Appointment</a>
+                </div>
+              </div>
+        
+        </div>
+<div class="col-sm-4">
+        <div class="card">
+            <img src="images/buy.jpg" class="card-img-top" alt="..." width="354px" height="235.8px">
+            <div class="card-body">
+              <h5 class="card-title" style="font-family: 'Bagel Fat One';">Buy</h5>
+              <p class="card-text"style="font-family: 'Balsamiq Sans';">You Can Buy New Automobiles.</p>
+              <a href="sales.html" class="btn btn-primary">Sales Store</a>
+           
+            </div>
+          </div>
+</div>
+
+    <div class="col-sm-4">
+          <div class="card">
+            <img src="images/sell.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title" style="font-family: 'Bagel Fat One';">Sell</h5>
+              <p class="card-text" style="font-family: 'Balsamiq Sans';">You Can Sell Your Automobiles.</p>
+              <a href="sells.html" class="btn btn-primary">Sell Page</a>
+         
+              </div>
+            </div>
+          </div>
+    
+    
+    </div>
+    
+    
+</div>
+
+       
+    </section>
+<section id="textsmall">
+    <!-- Little text section here -->
+    <div class="container reveal fade-left">
+    
+        <h2 class="mac" style=" font-family: 'Audiowide';">MICH <span class="text"></span></h2>
+        <p class="pmac" style="font-family: 'Balsamiq Sans';">We offer the best car services for you</p>
+    
+    </div>
+
+
+    <script src="app.js"></script>
+   </section>
+
+   <section id="whywe">
+    <!-- Why we are the best -->
+   <div class="container reveal fade-right">
+    <div class="row">
+        <div class="col-sm-6">
+            <h1 class="text1" style="font-family: 'Caprasimo';">What Makes Us Stand Out</h1>
+            <h3 class="text2" style="font-family: 'Balsamiq Sans';">Mich Auto Cares has been 
+                By integrating mechanical, electrical, and computer engineering principles, we develop and test automated machines
+                    and systems that are efficient, reliable, and effective.
+             We are responsible for the complete lifecycle of these systems, from design to installation, and maintenance to repair
+            </h3>
+            <ul>
+                <ol>
+                    <li>
+                        <p style="font-family: 'Balsamiq Sans';">Auto sales</p>
+                    </li>
+                    <li>
+                        <P style="font-family: 'Balsamiq Sans';">Repairs</P>
+                    </li>
+                    <li>
+                        <p style="font-family: 'Balsamiq Sans';">Car hire</p>
+                    </li>
+                    <li>
+                        <P style="font-family: 'Balsamiq Sans';">After car maintenance</P>
+                    </li>
+                    <li>
+                        <p style="font-family: 'Balsamiq Sans';">Auto body painting</p>
+                    </li>
+                    <li>
+                        <p style="font-family: 'Balsamiq Sans';">Spare parts and Auto rotate</p>
+                    </li>
+
+                </ol>
+            </ul>
+          
+        </div>
+
+        <div class="col-sm-6">          
+            <img class="image2" src="images/whyuseusim.png">
+        </div>
+    </div>
+   
+   </div>
+   
+   </section>
+
+
+   <section id="thirdsec">
+    <!-- THis is the other part of the third text section -->
+    <h1 class="thirdtext1" style="font-family: 'Caprasimo';">How it works</h1 >
+    <p class="thirdtext2" style="font-family: 'Balsamiq Sans';"><u>These few steps would help you get your car to the perfect position</p></u>
+
+  
+<div class="container reveal fade-down">
+              <div class="row">
+                <div class="col-sm-3">
+                 <img  src="https://i0.wp.com/smartdata.tonytemplates.com/car-repair-service-v4/car2/wp-content/uploads/sites/6/2020/04/how-works-02-1.png?w=640&amp;ssl=1" alt="Alt">															
+ <h5 style="font-family: 'Balsamiq Sans';">Book an Appointment</h5>
+ </div>
+                        <div class="col-sm-3">
+    <img  src="https://i0.wp.com/smartdata.tonytemplates.com/car-repair-service-v4/car2/wp-content/uploads/sites/6/2020/04/how-works-03.png?w=640&amp;ssl=1" alt="">
+          <h5 style="font-family: 'Balsamiq Sans';">Drop your car</h5> 
+
+ </div>
+                        <div class="col-sm-3">
+                 <img  src="https://i0.wp.com/smartdata.tonytemplates.com/car-repair-service-v4/car2/wp-content/uploads/sites/6/2020/04/how-works-01.png?w=640&amp;ssl=1" alt="Alt">
+      
+       <h5 style="font-family: 'Balsamiq Sans';">Schedule a return date</h5>
+             			
+    </div>
+ 
+                        <div class="col-sm-3">
+<img src="https://i0.wp.com/smartdata.tonytemplates.com/car-repair-service-v4/car2/wp-content/uploads/sites/6/2020/04/how-works-04.png?w=640&amp;ssl=1" alt="">                                     
+           <h5 style="font-family: 'Balsamiq Sans';">Ready for pick up </h5>
+						
+     
+ </div>
+                
+    </div>
+</div>
+
+
+   </section>
+
+
+   <section id="brandssec">
+    <!-- This is the brand section -->
+
+    <div class="container reveal fade-bottom">
+        <div class="row">
+        <div class="col-md-6">
+            <img class="symbol"  src="images/symbol1.png">
+        </div>
+<div class="col-md-6">
+    <h3 class="brandstext">Brands we've worked with and are currently working with</h3>
+    <ul>
+        <ol>
+            <li class="listsymbol" style="font-family: 'Balsamiq Sans';">
+                BMW
+            </li>
+            <li class="listsymbol" style="font-family: 'Balsamiq Sans';">
+                BENZ
+            </li>
+            <li class="listsymbol" style="font-family: 'Balsamiq Sans';">
+                VOLVO
+            </li>
+            <li class="listsymbol" style="font-family: 'Balsamiq Sans';">
+                CHEVRON
+            </li>
+            <li class="listsymbol" style="font-family: 'Balsamiq Sans';">
+                ALFA ROMEO
+            </li>
+        </ol>
+    </ul>
+</div>
+
+    </div>
+    </div>
+
+	<section id="clients">
+        <!-- This is the clients text or cusomers -->
+
+  <div class="container reveal fade-left">
+    <h1 class="clienttext" style=" font-family: 'Audiowide';">Join our 10,000 plus clientele <a  class="clienttext" href="#firstsection">MICH AUTO CARES </a></h1>
+             
+        
+         
+    <img class="brdlogo" src="images/clientele-removebg-preview.png">
+
+  </div>
+           
+                 
+     
+
+  
+     
+   
+</section>
+
+
+    <section id="breakdown">
+        <!-- This is the breakdown section -->
+        <div class="container reveal fade-In">
+        <div class="row">
+       <div class="col-sm-6">
+        <h1 class="brktext" style=" font-family: 'Audiowide';">MICH AUTO CARES has a 24hrs  service breakdown</h1>
+        <p style="font-family: 'Balsamiq Sans';">If your car breaks down you can call us</p>
+        <p style="font-family: 'Balsamiq Sans';">immediately someone would reach out to you</p>
+        <p><span>Phone:</span> <a href="tel://08186232706" style="color: #3081D0;">+234 816 451 1855 </a></p>
+
+    </div>
+
+    <div class="col-sm-6">
+<img class="totruck" src="images/to_truck-removebg-preview.png">
+    </div>
+        </div>
+        </div>
+    </section>
+
+
+   <section class="footi">
+    <div class="row reveal fade-right">
+        <div class="col-sm-6">
+            
+        <img  class="map"  src="images/map-removebg-preview.png" alt="">
+        </div>
+        <div class="col-sm-6">
+            <div class=" foot1 page-footer page-footer-2"
+            >
+        
+            <div class="footer-section02">
+                                
+                    <div class="footer-section02__box01">
+                                        <div class=" last footer-section02__title">Contact Info</div>
+                                        <address class="contact-info-item">
+                            <div class="item-icon">
+                                <i class="icon icon-locate"></i>
+                            </div>
+                            <div class="textcon item-description" style="font-family: 'Balsamiq Sans';">
+                            1 Odukoya close, Miccom Bus-stop, Egbeda, Lagos.					</div>
+                        </address>
+                        <address class="contact-info-item">
+                            <div class="item-icon">
+                                <i class="icon icon-phone"></i>
+                            </div>
+                            <div class=" textcon item-description">
+                                <a href="tel://0816 451 1855" style="color: #3081D0;">+234 913 117 8803 </a></div>
+                        </address>
+                        <address class="contact-info-item">
+                            <div class="item-icon">
+                                <i class="icon icon-email"></i>
+                            </div>
+                            <div class="item-description">
+                                <a href="mailto:info@michautocares.com" style="font-family: 'Balsamiq Sans';" style="color: #3081D0;">info@michautocares.com</a>
+                            </div>
+                        </address>
+                                        <div class="footer-section02__title" style="font-family: 'Balsamiq Sans';">Opening Hours</div>
+                                        <address class="contact-info-item">
+                            <div class="item-icon">
+                                <i class="icon icon-clock"></i>
+                            </div>
+                            <div class="textcon item-description" style="font-family: 'Balsamiq Sans';">
+                            Mon-Fri: <span>9:00 AM - 5:00 PM</span><br> Saturday: <span>10:00 AM - 3:00 PM</span><br> Sunday: <span>Closed</span>					</div>
+                        </address>
+                    </div>
+                </div>
+                    </div>
+        
+        </div>
+        </div>
+    </div>
+      
+</section>
+
+<section id="lastsec">
+    <nav class="thirdsecion">
+        <a href="" class="nav1br navbar-brand">
+            <p class="hedd11">&copy;2023 MICH AUTO CARES</p>
+                 <p class="hedd1">All Rights Reserved</p>
+        </a>
+        <a href="#home" class="nava11"><i class=" facebook1 fa-brands fa-facebook fa-2x"></i></a></a>
+        <a href="#about" class="nava11">      
+            <i class="twitter1 fa-brands fa-twitter fa-2x"></i></a>
+        <a href="#services" class="nava11"> <i class="instagram1 fa-brands fa-instagram fa-2x"></i></a>
+
+        
+    </nav>
+    
+   
+</section>
+
+<button id="scrollToTopBtn" onclick="scrollToTop()"><i class="fa fa-arrow-circle-o-up fa-2x" aria-hidden="true"></i></button>
+
+
+</body>
+
+   
+
+
+</html>

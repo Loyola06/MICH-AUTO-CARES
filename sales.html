@@ -1,0 +1,1075 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/sales.css">
+    <title>Mich Auto Cares</title>
+    
+    <link href='https://fonts.googleapis.com/css?family=Caprasimo' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Balsamiq Sans' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Bagel Fat One' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="sales.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollTrigger/1.0.6/ScrollTrigger.min.js" integrity="sha512-+LXqbM6YLduaaxq6kNcjMsQgZQUTdZp7FTaArWYFt1nxyFKlQSMdIF/WQ/VgsReERwRD8w/9H9cahFx25UDd+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="
+    https://cdn.jsdelivr.net/npm/split-type@0.3.4/umd/index.min.js
+    "></script>
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.29/bundled/lenis.min.js"></script> 
+</head>
+
+<body>
+    <section id="firstsection">
+        <!-- Nav bar plus the first background -->
+       
+<!-- <div class="container"> -->
+        <nav class=" navbar navbar-expand-lg  navbar-light">
+            <a href="first.html" class="navbar-brand">
+            <img class="logomic" src="images/logomichcopy1.png" width="250px" height="180px">
+           
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#coll">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="coll">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <h1 class="brandname">MICH AUTO CARES</h1>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="first.html" style="color: #fff;" ><u>Home</u></a>
+                    </li>
+                 
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contactnewone.html" style="color: #fff;"><u>Contact</u></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="thirdabout.html" style="color: #fff;"><u>About Us</u></a>
+                    </li>
+                    <li class="app nav-item">
+                        <button type="button" class=" btn1 btn btn-dark btn-lg" data-bs-toggle="modal" data-bs-target="#myModal">
+                            Book an Appointment
+                          </button>
+                        </div>
+                        
+                        <!-- The Modal -->
+                        <div class="modal fade" id="myModal">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                        
+                              <!-- Modal Header -->
+                              <div class="modal-header">
+                                <h4 class="modal-title">Book an appointment</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                              </div>
+                        
+                              <!-- Modal body -->
+                              <div class="modal-body">
+                               <form method="post" enctype="text/plain" action="mailto:michautocares@gmail.com">
+                               <div class="row">
+                                <div class="col-sm-6">
+                                  <p class="booking" style="font-family: 'Balsamiq Sans';">Name</p>
+                                   <input type="text" name="name" id="fname" placeholder="Your Name" required>
+                                     <hr>
+                                       <p class="booking" style="font-family: 'Balsamiq Sans';"> Appointment Date</p>
+                                          <input type="date" name="date" id="cdate">
+                                
+                              
+                                               <hr>
+                                           </div>
+                          
+                            
+                                                <div class="col-sm-6">
+                                                       <p class="booking" style="font-family: 'Balsamiq Sans';">Email Address</p>
+                            
+                                                    <input type="email" name="mail" placeholder="Your Email" required>
+                                <hr>
+                                       <p class="booking" style="font-family: 'Balsamiq Sans';">Phone Number</p>
+                                    <input type="tel" name="teli" id="teli" placeholder="Number"required>
+                        
+                                       </div>
+                                              <div class="form-group">
+                                      <textarea name="message" class="form-control" id="message" cols="30" rows="8" placeholder="Complaint" required></textarea>
+                                           </div>
+                                                   </div>
+                                                         <hr>
+                                                             <!-- <button type="button" class="subi btn btn-danger btn-lg" data-bs-dismiss="modal">Submit</button> -->
+                                                             <input type="submit" class="subi btn btn-danger btn-lg" name="submit" id="">
+                        
+                     
+                  
+                                          </form>
+                                  </div>
+
+        
+<!-- </div> -->
+    </section>
+
+    <section id="secondsec" style="background-image: url(images/benzimi.jpg);"  >
+
+        
+<img class="car-sale" src="images/circular image.png" alt="sales image">
+    
+    </section>
+
+    <section id="thirdsec">
+        <h1 class="txt1" style="font-family: 'Audiowide';">Welcome to MICH AUTO CARES</h1>
+
+
+
+    </section>
+
+    <section id="fourthsec">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                  
+    <div class="container mt-5">
+      <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+              <!-- Carousel Items -->
+              <div class="carousel-item active" data-bs-interval="1000">
+                  <img src="images/toy2.jpg" class="d-block w-100" alt="Slide 1" width="250px" height="200px">
+              </div>
+              <div class="carousel-item" data-bs-interval="1000">
+                  <img src="images/toyota1.1.jpg" class="carousini d-block w-100" alt="Slide 2" width="250px" height="200px">
+              </div>
+              <div class="carousel-item" data-bs-interval="1000">
+                  <img src="images/toyota1.2.jpg" class="d-block w-100" alt="Slide 3" width="250px" height="200px">
+              </div>
+              <!-- Add more slides as needed -->
+
+              <!-- Navigation Arrows -->
+              <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+              </a>
+          </div>
+      </div>
+  </div>
+
+                    <div class="card">
+                        <div class="card-body">
+                        <h1 class="cardtxt">Toyota Camry</h1>
+                        <br>
+                          <!-- Trigger the modal with a button -->
+<button type="button" class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#mym0odal">Buy this.</button>
+
+<!-- Modal -->
+<div id="mym0odal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-bs-dismiss="modal">&times;</button>
+        <h4 class="modal-title" style="  font-family: 'Audiowide';">Buy this product</h4>
+      </div>
+      <div class="modal-body">
+           <div class="row">
+             <div class="col-sm-6">
+              <img class="moadlimi" src="images/modalcol1.jpg" width="230px" height="400x">
+             </div>
+
+             <div class="col-sm-6">
+              <h2 class="hd2txt">Unleash Comfort and Style with the Toyota Camry</h2>
+              <p class="pd2txt">Are you ready to elevate your driving experience? Look no further than the Toyota Camry</p>
+              <h2 class="hd2txt" >Efficiency Redefined:</h2>
+              <p class="pd2txt">Under the hood, the Toyota Camry boasts an impressive engine lineup that strikes a perfect balance between power and fuel efficiency</p>
+             <br>
+                  <p  style="font-family: 'Balsamiq Sans';">Call this number now or just click on the number</p>
+                  <br>
+                  <p><a href="tel://0816 451 1855">+234 816 451 1855</a></p>
+             </div>
+           </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-info btn-lg" data-bs-dismiss="modal">Close</button>
+        <input type="submit" class="Submit btn btn-danger btn-lg" id="Submit">
+      </form>
+      </div>
+    </div>
+
+  </div>
+</div>
+                        </div>
+                     </div>
+                </div>
+
+                <div class="col-sm-3">
+                  <div class="container mt-5">
+                    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <!-- Carousel Items -->
+                            <div class="carousel-item active" data-bs-interval="1000">
+                                <img src="images/hondacivic.jpg" class="d-block w-100" alt="Slide 1" width="250px" height="200px">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="1000">
+                                <img src="images/honda1.1.jpg" class="carousini d-block w-100" alt="Slide 2" width="250px" height="200px">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="1000">
+                                <img src="images/honda1.2.jpg" class="d-block w-100" alt="Slide 3" width="250px" height="200px">
+                            </div>
+                            <!-- Add more slides as needed -->
+              
+                            <!-- Navigation Arrows -->
+                            <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+              
+                    <div class="card">
+                        <div class="card-body">
+                           <h1 class="cardtxt">Honda Civic</h1>
+                           <br>
+                          <button type="button" class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#mym1odal">Buy this.</button>
+
+                          <!-- Modal -->
+                          <div id="mym1odal" class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                          
+                              <!-- Modal content-->
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="close" data-bs-dismiss="modal">&times;</button>
+                                  <h4 class="modal-title" style="  font-family: 'Audiowide';">Buy this product</h4>
+                                </div>
+                                <div class="modal-body">
+                                     <div class="row">
+                                       <div class="col-sm-6">
+                                        <img class="moad2" src="images/modalsecond2.jpg" width="230px" height="400x">
+                                       </div>
+                          
+                                       <div class="col-sm-6">
+                                        
+                                        <h2 class="hd2txt">Elevate Your Drive with the Honda Civic - Unleash Performance and Style</h2>
+                                        <p class="pd2txt">Are you ready to experience a driving sensation like never before? Look no further than the Honda Civic, a compact car that sets new standards in performance, style, and innovation.</p>
+                                        <h2 class="hd2txt" >Sleek and Modern Design</h2>
+                                        <p class="pd2txt">Turn heads wherever you go with the Civic's modern and eye-catching design. From its bold front grille to its aerodynamic profile, every detail is crafted for a stylish and sophisticated appearance. </p>
+                      
+                                            <p  style="font-family: 'Balsamiq Sans';">Call this number now or just click on the number</p>
+                                   
+                                            <p><a href="tel://0816 451 1855">+234 816 451 1855</a></p>
+                                       </div>
+                                     </div>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-info btn-lg" data-bs-dismiss="modal">Close</button>
+                                  <input type="submit" class="Submit btn btn-danger btn-lg" id="Submit">
+                                </form>
+                                </div>
+                              </div>
+                          
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
+                    <div class="col-sm-3">             
+                               <!-- <img src="Chevrolet Corvette.png" width="250px" height="200px" > -->
+
+                               <div class="container mt-5">
+                                <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <!-- Carousel Items -->
+                                        <div class="carousel-item active" data-bs-interval="1000">
+                                            <img src="images/Chevrolet Corvette.png" class="d-block w-100" alt="Slide 1" width="250px" height="200px">
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="1000">
+                                            <img src="images/Chevrolet Corvette1.1.jpg" class="carousini d-block w-100" alt="Slide 2" width="250px" height="200px">
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="1000">
+                                            <img src="images/Chevrolet Corvette1.2.jpg" class="d-block w-100" alt="Slide 3" width="250px" height="200px">
+                                        </div>
+                                        <!-- Add more slides as needed -->
+                          
+                                        <!-- Navigation Arrows -->
+                                        <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                               
+
+                    <div class="card">
+                        <div class="card-body">
+                         <h1 class="cardtxt">Chevrolet Corvette</h1>      
+                         <br>
+                         <button type="button" class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#mym2odal">Buy this.</button>
+
+                         <!-- Modal -->
+                         <div id="mym2odal" class="modal fade" role="dialog">
+                           <div class="modal-dialog">
+                         
+                             <!-- Modal content-->
+                             <div class="modal-content">
+                               <div class="modal-header">
+                                 <button type="button" class="close" data-bs-dismiss="modal">&times;</button>
+                                 <h4 class="modal-title" style="  font-family: 'Audiowide';">Buy this product</h4>
+                               </div>
+                               <div class="modal-body">
+                                    <div class="row">
+                                      <div class="col-sm-6">
+                                       <img class="moad3" src="images/modalthird.jpg" width="230px" height="400x">
+                                      </div>
+                         
+                                      <div class="col-sm-6">
+                                        <h2 class="hd2txt">Unleash the Thrill: The Chevrolet Corvette</h2>
+                                        <p class="pd2txt">Are you ready to elevate your driving experience to unparalleled heights? Look no further than the iconic Chevrolet Corvette, a masterpiece of automotive engineering that seamlessly combines power, precision, and style.</p>
+                                        <h2 class="hd2txt" >Advanced Technology</h2>
+                                        <p class="pd2txt">The Chevrolet Corvette is not just a performance powerhouse; it's a technological marvel. Packed with advanced features such as a responsive touchscreen, driver-assistance systems, and connectivity option. </p>
+                      
+                                            <p  style="font-family: 'Balsamiq Sans';">Call this number now or just click on the number</p>
+                                   
+                                            <p><a href="tel://0816 451 1855">+234 816 451 1855</a></p>
+                                      </div>
+                                    </div>
+                               </div>
+                               <div class="modal-footer">
+                                 <button type="button" class="btn btn-info btn-lg" data-bs-dismiss="modal">Close</button>
+                                 <input type="submit" class="Submit btn btn-danger btn-lg" id="Submit">
+                               </form>
+                               </div>
+                             </div>
+                         
+                           </div>
+                         </div>                                
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <!-- <img class="toycam" src="Chevrolet Corvette.png" width="250px" height="200px"> -->
+                    <div class="container mt-5">
+                      <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                          <div class="carousel-inner">
+                              <!-- Carousel Items -->
+                              <div class="carousel-item active" data-bs-interval="1000">
+                                  <img src="images/fordmustang.jpg" class="d-block w-100" alt="Slide 1" width="250px" height="200px">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="1000">
+                                  <img src="images/fordmustang1.1.jpg" class="carousini d-block w-100" alt="Slide 2" width="250px" height="200px">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="1000">
+                                  <img src="images/fordmustang1.2 .jpg" class="d-block w-100" alt="Slide 3" width="250px" height="200px">
+                              </div>
+                              <!-- Add more slides as needed -->
+                
+                              <!-- Navigation Arrows -->
+                              <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Previous</span>
+                              </a>
+                              <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Next</span>
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+                    <div class="card">
+                        <div class="card-body">
+                          <h1 class="cardtxt">Ford Mustang</h1>
+                          <br>
+                          <button type="button" class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#mym3odal">Buy this.</button>
+
+                          <!-- Modal -->
+                          <div id="mym3odal" class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                          
+                              <!-- Modal content-->
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="close" data-bs-dismiss="modal">&times;</button>
+                                  <h4 class="modal-title" style="  font-family: 'Audiowide';">Buy this product</h4>
+                                </div>
+                                <div class="modal-body">
+                                     <div class="row">
+                                       <div class="col-sm-6">
+                                        <img class="moad4" src="images/modalfourth.jpg" width="230px" height="400x">
+                                       </div>
+                          
+                                       <div class="col-sm-6">
+                                        <h2 class="hd2txt">Unleash the Legend: The Ford Mustang</h2>
+                                        <p class="pd2txt">Get ready to feel the power, hear the roar, and experience the thrill of the open road with the legendary Ford Mustang.</p>
+                                        <h2 class="hd2txt" >Heart-Pounding Performance</h2>
+                                        <p class="pd2txt">Beneath the hood, the Ford Mustang houses an engine that doesn't just propel you forward; it catapults you into a world of exhilaration. </p>
+                      
+                                            <p  style="font-family: 'Balsamiq Sans';">Call this number now or just click on the number</p>
+                                   
+                                            <p><a href="tel://0816 451 1855">+234 816 451 1855</a></p>
+                                       </div>
+                                     </div>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-info btn-lg" data-bs-dismiss="modal">Close</button>
+                                  <input type="submit" class="Submit btn btn-danger btn-lg" id="Submit">
+                                </form>
+                                </div>
+                              </div>
+                          
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                
+            </div>
+        </div>
+
+
+        <!-- part 2 -->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <!-- <img class="toycam" src="BMW 3 Series.jpg" width="250px" height="200px"> -->
+                    <div class="container mt-5">
+                      <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                          <div class="carousel-inner">
+                              <!-- Carousel Items -->
+                              <div class="carousel-item active" data-bs-interval="1000">
+                                  <img src="images/BMW 3 Series.jpg" class="d-block w-100" alt="Slide 1" width="250px" height="200px">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="1000">
+                                  <img src="images/BMW3series1.1.jpg" class="carousini d-block w-100" alt="Slide 2" width="250px" height="200px">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="1000">
+                                  <img src="images/BMW3series1.2.jpg" class="d-block w-100" alt="Slide 3" width="250px" height="200px">
+                              </div>
+                              <!-- Add more slides as needed -->
+                
+                              <!-- Navigation Arrows -->
+                              <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Previous</span>
+                              </a>
+                              <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Next</span>
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+                    <div class="card">
+                        <div class="card-body">
+                          <h1 class="cardtxt">BMW 3series</h1>
+                        <br>
+                        <button type="button" class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#mym4odal">Buy this.</button>
+
+                        <!-- Modal -->
+                        <div id="mym4odal" class="modal fade" role="dialog">
+                          <div class="modal-dialog">
+                        
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-bs-dismiss="modal">&times;</button>
+                                <h4 class="modal-title" style="  font-family: 'Audiowide';">Buy this product</h4>
+                              </div>
+                              <div class="modal-body">
+                                   <div class="row">
+                                     <div class="col-sm-6">
+                                      <img class="moad5" src="images/modalfive.jpg" width="230px" height="400x">
+                                     </div>
+                        
+                                     <div class="col-sm-6">
+                                      <h2 class="hd2txt">Elevate Your Drive: The BMW 3 Series</h2>
+                                        <p class="pd2txt">Introducing the epitome of luxury and performance - the BMW 3 Series. Crafted with precision engineering and a commitment to excellence.</p>
+                                        <h2 class="hd2txt" >Unrivaled Performance</h2>
+                                        <p class="pd2txt">At the heart of the BMW 3 Series beats a powerful engine that redefines performance on the road. From exhilarating acceleration to responsive handling, each moment behind the wheel is an invitation to experience driving in its purest form. </p>
+                      
+                                            <p  style="font-family: 'Balsamiq Sans';">Call this number now or just click on the number</p>
+                                   
+                                            <p><a href="tel://0816 451 1855">+234 816 451 1855</a></p>
+                                     </div>
+                                   </div>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-info btn-lg" data-bs-dismiss="modal">Close</button>
+                                <input type="submit" class="Submit btn btn-danger btn-lg" id="Submit">
+                              </form>
+                              </div>
+                            </div>
+                        
+                          </div>
+                        </div>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <!-- <img class="toycam" src="Mercedes-Benz E-Class.png" width="250px" height="200px"> -->
+                    <div class="container mt-5">
+                      <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                          <div class="carousel-inner">
+                              <!-- Carousel Items -->
+                              <div class="carousel-item active" data-bs-interval="1000">
+                                  <img src="images/Mercedes-Benz E-Class.png" class="d-block w-100" alt="Slide 1" width="250px" height="200px">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="1000">
+                                  <img src="images/Mercedes-Benz E-class1.1.jpg" class="carousini d-block w-100" alt="Slide 2" width="250px" height="200px">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="1000">
+                                  <img src="images/Mercedes-Benz E-class1.2.jpg" class="d-block w-100" alt="Slide 3" width="250px" height="200px">
+                              </div>
+                              <!-- Add more slides as needed -->
+                
+                              <!-- Navigation Arrows -->
+                              <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Previous</span>
+                              </a>
+                              <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Next</span>
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+                    <div class="card">
+                        <div class="card-body">
+                          <h1 class="cardtxt">Mercedes-Benz E-class</h1>
+                            <br>
+                          <button type="button" class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#mym5odal">Buy this.</button>
+
+                          <!-- Modal -->
+                          <div id="mym5odal" class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                          
+                              <!-- Modal content-->
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="close" data-bs-dismiss="modal">&times;</button>
+                                  <h4 class="modal-title" style="  font-family: 'Audiowide';">Buy this product</h4>
+                                </div>
+                                <div class="modal-body">
+                                     <div class="row">
+                                       <div class="col-sm-6">
+                                        <img class="moad6" src="images/modalsix.jpg" width="230px" height="400x">
+                                       </div>
+                          
+                                       <div class="col-sm-6">
+                                        <h2 class="hd2txt">Effortless Elegance</h2>
+                                        <p class="pd2txt">The Mercedes-Benz E-Class stands as a testament to the brand's commitment to design perfection. With its sleek lines, distinctive grille, and captivating LED lighting, the E-Class is a harmonious blend of form and function..</p>
+                                        <h2 class="hd2txt" >Unrivaled Safety</h2>
+                                        <p class="pd2txt">Mercedes-Benz has always been synonymous with safety, and the E-Class continues this legacy. A suite of advanced safety features, including intelligent driver-assistance systems, helps prevent accidents and protects you and your passengers. </p>
+                      
+                                            <p  style="font-family: 'Balsamiq Sans';">Call this number now or just click on the number</p>
+                                   
+                                            <p><a href="tel://0816 451 1855">+234 816 451 1855</a></p>
+                                       </div>
+                                     </div>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-info btn-lg" data-bs-dismiss="modal">Close</button>
+                                  <input type="submit" class="Submit btn btn-danger btn-lg" id="Submit">
+                                </form>
+                                </div>
+                              </div>
+                          
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <!-- <img class="toycam" src="Audi Q5.png" width="250px" height="200px"> -->
+                    <div class="container mt-5">
+                      <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                          <div class="carousel-inner">
+                              <!-- Carousel Items -->
+                              <div class="carousel-item active" data-bs-interval="1000">
+                                  <img src="images/Audi Q5.png" class="d-block w-100" alt="Slide 1" width="250px" height="200px">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="1000">
+                                  <img src="images/Audi Q51.1.jpg" class="carousini d-block w-100" alt="Slide 2" width="250px" height="200px">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="1000">
+                                  <img src="images/Audi Q51.2.jpg" class="d-block w-100" alt="Slide 3" width="250px" height="200px">
+                              </div>
+                              <!-- Add more slides as needed -->
+                
+                              <!-- Navigation Arrows -->
+                              <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Previous</span>
+                              </a>
+                              <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Next</span>
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+                    <div class="card">
+                        <div class="card-body">
+                          <h1 class="cardtxt">Audi Q5</h1>
+                             <br>
+
+                          <button type="button" class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#mym6odal">Buy this.</button>
+
+                          <!-- Modal -->
+                          <div id="mym6odal" class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                          
+                              <!-- Modal content-->
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="close" data-bs-dismiss="modal">&times;</button>
+                                  <h4 class="modal-title" style="  font-family: 'Audiowide';">Buy this product</h4>
+                                </div>
+                                <div class="modal-body">
+                                     <div class="row">
+                                       <div class="col-sm-6">
+                                        <img class="moad7" src="images/moadlseven.jpg" width="230px" height="400x">
+                                       </div>
+                          
+                                       <div class="col-sm-6">
+                                        <h2 class="hd2txt">Elevate Your Journey with the Audi Q5</h2>
+                                        <p class="pd2txt">Introducing the Audi Q5 - where sophistication meets performance, and every drive becomes an adventure. Crafted with precision engineering and a commitment to luxury, the Q5 is more than an SUV; it's a statement of refined taste and driving excellence.</p>
+                                        <h2 class="hd2txt" >Versatility Redefined</h2>
+                                        <p class="pd2txt">Adaptability is key, and the Audi Q5 seamlessly transitions between versatility and luxury. The ample cargo space and configurable rear seats make it an ideal companion for both daily commutes and adventurous getaways. </p>
+                      
+                                            <p  style="font-family: 'Balsamiq Sans';">Call this number now or just click on the number</p>
+                                   
+                                            <p><a href="tel://0816 451 1855">+234 816 451 1855</a></p>
+                                       </div>
+                                     </div>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-info btn-lg" data-bs-dismiss="modal">Close</button>
+                                  <input type="submit" class="Submit btn btn-danger btn-lg" id="Submit">
+                                </form>
+                                </div>
+                              </div>
+                          
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <!-- <img class="toycam" src="Tesla Model S.png" width="250px" height="200px"> -->
+
+                    <div class="container mt-5">
+                      <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                          <div class="carousel-inner">
+                              <!-- Carousel Items -->
+                              <div class="carousel-item active" data-bs-interval="1000">
+                                  <img src="images/Tesla Model S.png" class="d-block w-100" alt="Slide 1" width="250px" height="200px">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="1000">
+                                  <img src="images/Tesla Model S1.1.jpg" class="carousini d-block w-100" alt="Slide 2" width="250px" height="200px">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="1000">
+                                  <img src="images/Tesla Model S1.2.jpg" class="d-block w-100" alt="Slide 3" width="250px" height="200px">
+                              </div>
+                              <!-- Add more slides as needed -->
+                
+                              <!-- Navigation Arrows -->
+                              <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Previous</span>
+                              </a>
+                              <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Next</span>
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+                    <div class="card">
+                        <div class="card-body">
+                          <h1 class="cardtxt">Tesla Model S </h1>        
+                       <br>
+                       <button type="button" class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#mym7odal">Buy this.</button>
+
+                       <!-- Modal -->
+                       <div id="mym7odal" class="modal fade" role="dialog">
+                         <div class="modal-dialog">
+                       
+                           <!-- Modal content-->
+                           <div class="modal-content">
+                             <div class="modal-header">
+                               <button type="button" class="close" data-bs-dismiss="modal">&times;</button>
+                               <h4 class="modal-title" style="  font-family: 'Audiowide';">Buy this product</h4>
+                             </div>
+                             <div class="modal-body">
+                                  <div class="row">
+                                    <div class="col-sm-6">
+                                     <img class="moad8" src="images/modaleight.jpg" width="230px" height="400x">
+                                    </div>
+                       
+                                    <div class="col-sm-6">
+                                      <h2 class="hd2txt">Revolutionize Your Drive: The Tesla Model S</h2>
+                                      <p class="pd2txt">Prepare to redefine your expectations of driving with the Tesla Model S - a revolutionary electric car that seamlessly combines innovation, sustainability, and unparalleled performance.</p>
+                                      <h2 class="hd2txt" >Innovative Autopilot Technology</h2>
+                                      <p class="pd2txt">Navigate the roads with confidence thanks to Tesla's advanced Autopilot capabilities. </p>
+                    
+                                          <p  style="font-family: 'Balsamiq Sans';">Call this number now or just click on the number</p>
+                                 
+                                          <p><a href="tel://0816 451 1855">+234 816 451 1855</a></p>
+                                    </div>
+                                  </div>
+                             </div>
+                             <div class="modal-footer">
+                               <button type="button" class="btn btn-info btn-lg" data-bs-dismiss="modal">Close</button>
+                               <input type="submit" class="Submit btn btn-danger btn-lg" id="Submit">
+                             </form>
+                             </div>
+                           </div>
+                       
+                         </div>
+                       </div>
+                        </div>
+                      </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <!-- this is the third part -->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <!-- <img class="toycam" src="Nissan Rogue.jpg" width="250px" height="200px"> -->
+                    
+                    <div class="container mt-5">
+                      <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                          <div class="carousel-inner">
+                              <!-- Carousel Items -->
+                              <div class="carousel-item active" data-bs-interval="1000">
+                                  <img src="images/Nissan Rogue.jpg" class="d-block w-100" alt="Slide 1" width="250px" height="200px">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="1000">
+                                  <img src="images/Nissan Rogue1.1.jpg" class="carousini d-block w-100" alt="Slide 2" width="250px" height="200px">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="1000">
+                                  <img src="images/Nissan Rogue1.2.jpg" class="d-block w-100" alt="Slide 3" width="250px" height="200px">
+                              </div>
+                              <!-- Add more slides as needed -->
+                
+                              <!-- Navigation Arrows -->
+                              <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Previous</span>
+                              </a>
+                              <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Next</span>
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+                    <div class="card">
+                        <div class="card-body">
+                       <h1 class="cardtxt">Nissan Rogue</h1>
+                          <br>
+                       <button type="button" class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#mym8odal">Buy this.</button>
+
+                       <!-- Modal -->
+                       <div id="mym8odal" class="modal fade" role="dialog">
+                         <div class="modal-dialog">
+                       
+                           <!-- Modal content-->
+                           <div class="modal-content">
+                             <div class="modal-header">
+                               <button type="button" class="close" data-bs-dismiss="modal">&times;</button>
+                               <h4 class="modal-title" style="  font-family: 'Audiowide';">Buy this product</h4>
+                             </div>
+                             <div class="modal-body">
+                                  <div class="row">
+                                    <div class="col-sm-6">
+                                     <img class="moad9" src="images/modalnine.jpg" width="230px" height="400x">
+                                    </div>
+                       
+                                    <div class="col-sm-6">
+                                      <h2 class="hd2txt">Elevate Your Journey: The Nissan Rogue</h2>
+                                      <p class="pd2txt">Get ready for an adventure like never before with the Nissan Rogue — a crossover that redefines versatility, comfort, and style.</p>
+                                      <h2 class="hd2txt" >Efficient Performance</h2>
+                                      <p class="pd2txt">The Rogue doesn't just look good; it performs exceptionally well too. Its efficient engine delivers a perfect balance of power and fuel economy, making it an ideal companion for both city commuting and long road trips. </p>
+                    
+                                          <p  style="font-family: 'Balsamiq Sans';">Call this number now or just click on the number</p>
+                                 
+                                          <p><a href="tel://0816 451 1855">+234 816 451 1855</a></p>
+                                    </div>
+                                  </div>
+                             </div>
+                             <div class="modal-footer">
+                               <button type="button" class="btn btn-info btn-lg" data-bs-dismiss="modal">Close</button>
+                               <input type="submit" class="Submit btn btn-danger btn-lg" id="Submit">
+                             </form>
+                             </div>
+                           </div>
+                       
+                         </div>
+                       </div>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <!-- <img class="toycam" src="Hyundai Sonata.png" width="250px" height="200px"> -->
+                            
+                    <div class="container mt-5">
+                      <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                          <div class="carousel-inner">
+                              <!-- Carousel Items -->
+                              <div class="carousel-item active" data-bs-interval="1000">
+                                  <img src="images/Hyundai Sonata.png" class="d-block w-100" alt="Slide 1" width="250px" height="200px">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="1000">
+                                  <img src="images/Hyundai Sonata1.1.jpg" class="carousini d-block w-100" alt="Slide 2" width="250px" height="200px">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="1000">
+                                  <img src="images/Hyundai Sonata1.2.jpg" class="d-block w-100" alt="Slide 3" width="250px" height="200px">
+                              </div>
+                              <!-- Add more slides as needed -->
+                
+                              <!-- Navigation Arrows -->
+                              <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Previous</span>
+                              </a>
+                              <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Next</span>
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+                    <div class="card">
+                        <div class="card-body">
+                          <h1 class="cardtxt">Hyundai Sonata </h1> 
+                          <br>
+                          <button type="button" class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#mym9odal">Buy this.</button>
+
+                          <!-- Modal -->
+                          <div id="mym9odal" class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                          
+                              <!-- Modal content-->
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="close" data-bs-dismiss="modal">&times;</button>
+                                  <h4 class="modal-title" style="  font-family: 'Audiowide';">Buy this product</h4>
+                                </div>
+                                <div class="modal-body">
+                                     <div class="row">
+                                       <div class="col-sm-6">
+                                        <img class="moad10" src="images/modal10.jpg" width="230px" height="400x">
+                                       </div>
+                          
+                                       <div class="col-sm-6">
+                                        <h2 class="hd2txt">Own the Future</h2>
+                                        <p class="pd2txt">Owning a Hyundai Sonata isn't just about driving a car; it's about embracing the future of automotive excellence. With Hyundai's commitment to sustainability, innovation, and customer satisfaction.</p>
+                                        <h2 class="hd2txt" >Experience the Hyundai Sonata Difference:</h2>
+                                        <p class="pd2txt">Elevate your daily commute, make every journey memorable, and enjoy the perfect fusion of style and technology. </p>
+                      
+                                            <p  style="font-family: 'Balsamiq Sans';">Call this number now or just click on the number</p>
+                                   
+                                            <p><a href="tel://0816 451 1855">+234 816 451 1855</a></p>
+                                       </div>
+                                     </div>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-info btn-lg" data-bs-dismiss="modal">Close</button>
+                                  <input type="submit" class="Submit btn btn-danger btn-lg" id="Submit">
+                                </form>
+                                </div>
+                              </div>
+                          
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <!-- <img class="toycam" src="Lexus .jpg" width="250px" height="200px"> -->
+                    <div class="container mt-5">
+                      <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                          <div class="carousel-inner">
+                              <!-- Carousel Items -->
+                              <div class="carousel-item active" data-bs-interval="1000">
+                                  <img src="images/Lexus .jpg" class="d-block w-100" alt="Slide 1" width="250px" height="200px">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="1000">
+                                  <img src="images/Lexus1.1.jpg" class="carousini d-block w-100" alt="Slide 2" width="250px" height="200px">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="1000">
+                                  <img src="images/Lexus1.2.jpg" class="d-block w-100" alt="Slide 3" width="250px" height="200px">
+                              </div>
+                              <!-- Add more slides as needed -->
+                
+                              <!-- Navigation Arrows -->
+                              <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Previous</span>
+                              </a>
+                              <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Next</span>
+                              </a>
+                            </div>
+                        
+                  </div>
+                  </div>
+                    <div class="card">
+                        <div class="card-body">
+                          <h1 class="cardtxt">Lexus</h1> 
+                          <br>
+                          <button type="button" class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#mym10odal">Buy this.</button>
+
+                          <!-- Modal -->
+                          <div id="mym10odal" class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                          
+                              <!-- Modal content-->
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="close" data-bs-dismiss="modal">&times;</button>
+                                  <h4 class="modal-title" style="  font-family: 'Audiowide';">Buy this product</h4>
+                                </div>
+                                <div class="modal-body">
+                                     <div class="row">
+                                       <div class="col-sm-6">
+                                        <img class="moad11" src="images/modaleleven.jpg" width="230px" height="400x">
+                                       </div>
+                          
+                                       <div class="col-sm-6">
+                                        <h2 class="hd2txt">Elevate Your Drive with Lexus: A Symphony of Luxury and Performance</h2>
+                                        <p class="pd2txt">Lexus has set the standard for automotive refinement. Step into a world of opulence and cutting-edge technology as we invite you to discover the pinnacle of automotive excellence..</p>
+                                        <h2 class="hd2txt" >Supreme Comfort</h2>
+                                        <p class="pd2txt">Slide into the luxurious interior of a Lexus, and you'll experience a level of comfort that transcends the ordinary </p>
+                      
+                                            <p  style="font-family: 'Balsamiq Sans';">Call this number now or just click on the number</p>
+                                   
+                                            <p><a href="tel://0816 451 1855">+234 816 451 1855</a></p>
+                                       </div>
+                                     </div>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-info btn-lg" data-bs-dismiss="modal">Close</button>
+                                  <input type="submit" class="Submit btn btn-danger btn-lg" id="Submit">
+                                </form>
+                                </div>
+                              </div>
+                          
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <!-- <img class="toycam" src="Range Rover.jpg" width="250px" height="200px"> -->
+                    <div class="container mt-5">
+                      <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                          <div class="carousel-inner">
+                              <!-- Carousel Items -->
+                              <div class="carousel-item active" data-bs-interval="1000">
+                                  <img src="images/Range Rover.jpg" class="d-block w-100" alt="Slide 1" width="250px" height="200px">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="1000">
+                                  <img src="images/Range Rover1.1 (1).jpg" class="carousini d-block w-100" alt="Slide 2" width="250px" height="200px">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="1000">
+                                  <img src="images/Range Rover1.2.jpg" class="d-block w-100" alt="Slide 3" width="250px" height="200px">
+                              </div>
+                              <!-- Add more slides as needed -->
+                
+                              <!-- Navigation Arrows -->
+                              <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Previous</span>
+                              </a>
+                              <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Next</span>
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+                    <div class="card">
+                        <div class="card-body">
+                          <h1 class="cardtxt">Range Rover</h1>
+                          <br>
+                          <button type="button" class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#mym11odal">Buy this.</button>
+
+                          <!-- Modal -->
+                          <div id="mym11odal" class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                          
+                              <!-- Modal content-->
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="close" data-bs-dismiss="modal">&times;</button>
+                                  <h4 class="modal-title" style="  font-family: 'Audiowide';">Buy this product</h4>
+                                </div>
+                                <div class="modal-body">
+                                     <div class="row">
+                                       <div class="col-sm-6">
+                                        <img class="moad12" src="images/modaltwelve.jpg" width="230px" height="400x">
+                                       </div>
+                          
+                                       <div class="col-sm-6">
+                                        <h2 class="hd2txt">Embark on Elegance: The Range Rover</h2>
+                                        <p class="pd2txt">Command the road with sophistication and power - introducing the Range Rover, an epitome of luxury, performance, and off-road prowess..</p>
+                                        <h2 class="hd2txt" >Off-Road Dominance</h2>
+                                        <p class="pd2txt"> For those who seek adventure beyond the asphalt, the Range Rover is engineered to conquer any terrain. With advanced off-road technologies.</p>
+                      
+                                            <p  style="font-family: 'Balsamiq Sans';">Call this number now or just click on the number</p>
+                                   
+                                            <p><a href="tel://0816 451 1855">+234 816 451 1855</a></p>
+                                       </div>
+                                     </div>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-info btn-lg" data-bs-dismiss="modal">Close</button>
+                                  <input type="submit" class="Submit btn btn-danger btn-lg" id="Submit">
+                                </form>
+                                </div>
+                              </div>
+                          
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+</body>
+
+
+
+</html
