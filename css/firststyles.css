@@ -386,7 +386,7 @@ padding-top: 20px;
   }
 
   .active.fade-In {
-    animation: fade-In 1.5s ease-out;
+    animation: fade-In 1.4s ease-out;
   }
 
 
@@ -512,5 +512,10 @@ padding-left: 25%;
 .totruck {
   width: 280px;
 }
+
+.navbar-collapse {
+  width: 210px;
+}
+
 }
 
