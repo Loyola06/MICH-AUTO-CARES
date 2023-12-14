@@ -37,6 +37,10 @@
 }
 
 
+.navbar-collapse {
+    width: 170px;
+  }
+
 
 @keyframes fade-right {
     0% {
