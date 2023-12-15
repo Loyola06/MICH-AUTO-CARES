@@ -70,7 +70,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    animation: fade-right 1s ease-in;
+    
 
     object-fit: cover;
     filter: brightness(1);
@@ -128,6 +128,7 @@
         background-size: cover;
         width: 100%;
         height: 100%;
+        object-fit: cover;
     }
 
     .navbar-toggler {
@@ -138,11 +139,24 @@
       .firtxt {
         font-size: 1.8;
         font-weight: bolder;
+        color: #fff;
     }
     
     
     .sectxt {
         font-size: 1.2rem;
         font-weight: bold;
+        color: #fff;
+    
+    }
+
+    #texth1 {
+        width: 200px;
+         height: 280px;
+        color: black;
+        border: solid 2px;
+        padding-top: 30px;
+        padding-left: 30px;
+     
     }
 }
