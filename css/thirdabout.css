@@ -120,3 +120,11 @@
     color: black;
     font-size: 1.9rem;
 }
+
+@media screen and (max-width: 750px) {
+    #secsec {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}
