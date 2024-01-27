@@ -682,7 +682,7 @@ font-size: 1rem;
 
 
 .symbol {
-      width: 200px;
+      width: 100%;
 }
 
   
@@ -702,7 +702,7 @@ font-size: 1rem;
 }
 
 .symbol {
-  width: 300px;
+  width: 100%;
   padding-left: 10px;
 }
 
