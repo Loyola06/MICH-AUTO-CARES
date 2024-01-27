@@ -22,32 +22,973 @@
 }
 
 
-.container {
- background-color: #164863;
- color: #fff;
+#tablerowsec {
+    background-color: #fff;
+
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+.h1txt {
+
+    font-family: cursive;
 }
 
 .isttxt {
-    text-align: center;
-    font-size: 1rem;
     font-family: 'Audiowide';
     padding-top: 20px;
 }
 
 .firstimi {
-    padding-top: 20px;
+
+border: 2px solid yellow;
+    
+}
+
+.secondimi {
+
+border: 2px solid yellow;
+
+}
+
+.box1 {
+    text-align: center;
+    border: 2px solid blue;
+}
+
+.box2 {
+ border: 2px solid green;
+}
+
+.facebook1 {
+    color: 	#1877F2;
+    background-color: #fff;
+    }
+    
+    .twitter1 {
+    color:  #1DA1F2;
+    background-color: #fff;
+    }
+    
+    .instagram1 {
+    color:  #cd486b ;
+    background-color: #fff;
+    }
+    
+    .linkedin1 {
+    color: #0077b5;
+    background-color: #fff;
+    }
+
+
+@media only screen and (min-width: 190px) and (max-width: 300px) {
+    .firstimi {
+        width: 190px;
+    }
+    
+    .secondimi {
+        width: 190px;
+   
+    }
+
+    .box1 {
+        text-align: left;
+
+        padding-left: 3px;
+    }
+   
+    .h1txt {
+        font-size: 0.8rem;
+        color: black;
+    }
+
+    .isttxt {
+        font-size: 0.8rem;
+    }
+    .box2 {
+        border: none;
+        text-align: left;
+        padding-left: 3px;
+
+    }
+
+    h1 {
+        font-size: 0.8rem;
+    }
+
+    p {
+        font-size: 0.7rem;
+    }
+
+    .brandname {
+        font-size: 1rem;
+        font-family: 'Audiowide';
+        color: #fff;
+    }
+
+    .bkp-btn {
+        font-size: 0.7rem;
+    }
+
+    .btn-collapse {
+    margin-right: 10px;
+    }
+
+    .logomic {
+        width: 150px;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 301px) and (max-width: 400px) {
+    .firstimi {
+        width: 300px;
+    }
+    
+    .secondimi {
+        width: 300px;
+   
+    }
+
+    .box1 {
+        text-align: left;
+
+        padding-left: 30px;
+    }
+   
+    .h1txt {
+        font-size: 1.1rem;
+        color: black;
+    }
+
+    .isttxt {
+        font-size: 1rem;
+    }
+    .box2 {
+        border: none;
+        text-align: left;
+        padding-left: 10px;
+
+    }
+
+    h1 {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+
+    .brandname {
+        font-size: 1.2rem;
+        font-family: 'Audiowide';
+        color: #fff;
+    }
+
+    .bkp-btn {
+        font-size: 0.9rem;
+    }
+
+    .btn-collapse {
+    margin-right: 10px;
+    }
+
+
+
+}
+
+
+@media only screen and (min-width: 401px) and (max-width: 500px) {
+    .firstimi {
+        width: 300px;
+    }
+    
+    .secondimi {
+        width: 300px;
+   
+    }
+
+    .box1 {
+        text-align: left;
+
+        padding-left: 30px;
+    }
+   
+    .h1txt {
+        font-size: 1.4rem;
+        color: black;
+    }
+
+    .isttxt {
+        font-size: 1.4rem;
+    }
+    .box2 {
+        border: none;
+        text-align: left;
+        padding-left: 10px;
+
+    }
+
+    h1 {
+        font-size: 1.3rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    .brandname {
+        font-size: 1.4rem;
+        font-family: 'Audiowide';
+        color: #fff;
+    }
+
+    .bkp-btn {
+        font-size: 1rem;
+    }
+
+    .btn-collapse {
+    margin-right: 10px;
+    }
+
+
+
+}
+
+
+
+@media only screen and (min-width: 501px) and (max-width: 580px) {
+    .firstimi {
+        width: 60%;
+      
+    }
+    
+
+    .secondimi {
+        width: 60%;
+
+    
+    }
+
+    .box1 {
+   
+text-align: left;
+        padding-left: 30px;
+    }
+   
+    .h1txt {
+        font-size: 1.4rem;
+        color: black;
+    }
+
+    .isttxt {
+        font-size: 1.4rem;
+    }
+    .box2 {
+        text-align: left;
+
+        padding-left: 10px;
+
+    }
+
+    h1 {
+        font-size: 1.3rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    .brandname {
+        font-size: 1.4rem;
+        font-family: 'Audiowide';
+        color: #fff;
+    }
+
+    .bkp-btn {
+        font-size: 1rem;
+    }
+
+    .btn-collapse {
+    margin-right: 10px;
+    }
+
+
+
+}
+
+
+
+@media only screen and (min-width: 581px) and (max-width: 680px) {
+    .firstimi {
+        width: 240px;
+      padding-right: 10px;
+    }
+    
+
+    .secondimi {
+        width: 200px;
+
+    
+    }
+
+    .box1 {
+        text-align: center;
+
+ 
+    }
+   
+    .h1txt {
+        font-size: 1.4rem;
+        color: black;
+    }
+
+    .isttxt {
+        font-size: 1.4rem;
+    }
+    .box2 {
+        
+        text-align: center;
+
+
+    }
+
+    h1 {
+        font-size: 1.3rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    .brandname {
+        font-size: 1.4rem;
+        font-family: 'Audiowide';
+        color: #fff;
+    }
+
+    .bkp-btn {
+        font-size: 1rem;
+    }
+
+    .btn-collapse {
+    margin-right: 10px;
+    }
+
+
+}
+
+
+
+@media only screen and (min-width: 681px) and (max-width: 760px) {
+    .firstimi {
+        width: 270px;
+      padding-right: 10px;
+    }
+    
+
+    .secondimi {
+        width: 250px;
+    }
+    
+   
+    .box1 {
+        text-align: center;
+       
+
+ 
+    }
+   
+    .h1txt {
+        font-size: 1.4rem;
+        color: black;
+    }
+
+    .isttxt {
+        font-size: 1.4rem;
+    }
+    .box2 {
+        
+        text-align: center;
+    }
+
+    .box1-1 {
+        width: 200px;
+    }
+
+.box1-2 {
+    width: 200px;
+}
+
+    h1 {
+        font-size: 1.3rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    .brandname {
+        font-size: 1.4rem;
+        font-family: 'Audiowide';
+        color: #fff;
+    }
+
+    .bkp-btn {
+        font-size: 1rem;
+    }
+
+    .btn-collapse {
+    margin-right: 100px;
+    }
+
+
+}
+
+
+
+@media only screen and (min-width: 761px) and (max-width: 768px) {
+    .firstimi {
+        width: 100%;
+
+    }
+    
+
+    .secondimi {
+        width: 100%;
+
+    
+    }
+
+    .box1 {
+        text-align: center;
+
+ 
+    }
+   
+    .h1txt {
+        font-size: 1.4rem;
+        color: black;
+    }
+
+    .isttxt {
+        font-size: 1.4rem;
+    }
+    .box2 {
+        
+        text-align: center;
+
+
+    }
+
+    h1 {
+        font-size: 1.3rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    .brandname {
+        font-size: 1.4rem;
+        font-family: 'Audiowide';
+        color: #fff;
+    }
+
+    .bkp-btn {
+        font-size: 1rem;
+    }
+
+    .btn-collapse {
+    margin-right: 20px;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 769px) and (max-width: 869px) {
+    .firstimi {
+        width: 100%;
+
+    }
+    
+
+    .secondimi {
+        width: 100%;
+
+    
+    }
+
+    .box1 {
+        text-align: center;
+
+ 
+    }
+   
+    .h1txt {
+        font-size: 1.4rem;
+        color: black;
+    }
+
+    .isttxt {
+        font-size: 1.4rem;
+    }
+    .box2 {
+        
+        text-align: center;
+
+
+    }
+
+    h1 {
+        font-size: 1.3rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    .brandname {
+        font-size: 1.4rem;
+        font-family: 'Audiowide';
+        color: #fff;
+    }
+
+    .bkp-btn {
+        font-size: 1rem;
+    }
+
+    .btn-collapse {
+    margin-right: 20px;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 870px) and (max-width: 970px) {
+    .firstimi {
+        width: 100%;
+
+    }
+    
+
+    .secondimi {
+        width: 100%;
+
+    
+    }
+
+    .box1 {
+        text-align: center;
+
+ 
+    }
+   
+    .h1txt {
+        font-size: 1.4rem;
+        color: black;
+    }
+
+    .isttxt {
+        font-size: 1.4rem;
+    }
+    .box2 {
+        
+        text-align: center;
+
+
+    }
+
+    h1 {
+        font-size: 1.3rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    .brandname {
+        font-size: 1.4rem;
+        font-family: 'Audiowide';
+        color: #fff;
+    }
+
+    .bkp-btn {
+        font-size: 1rem;
+    }
+
+    .btn-collapse {
+    margin-right: 20px;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 971px) and (max-width: 1071px) {
+    .firstimi {
+        width: 100%;
+
+    }
+    
+
+    .secondimi {
+        width: 100%;
+
+    
+    }
+
+    .box1 {
+        text-align: center;
+
+ 
+    }
+   
+    .h1txt {
+        font-size: 1.4rem;
+        color: black;
+    }
+
+    .isttxt {
+        font-size: 1.4rem;
+    }
+    .box2 {
+        
+        text-align: center;
+
+
+    }
+
+    h1 {
+        font-size: 1.3rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    .brandname {
+        font-size: 1.4rem;
+        font-family: 'Audiowide';
+        color: #fff;
+    }
+
+    .bkp-btn {
+        font-size: 1rem;
+    }
+
+    .btn-collapse {
+    margin-right: 20px;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 1072px) and (max-width: 1172px) {
+    .firstimi {
+        width: 100%;
+
+    }
+    
+
+    .secondimi {
+        width: 100%;
+
+    
+    }
+
+    .box1 {
+        text-align: center;
+
+ 
+    }
+   
+    .h1txt {
+        font-size: 2.2rem;
+        color: black;
+    }
+
+    .isttxt {
+        font-size: 2rem;
+    }
+    .box2 {
+        
+        text-align: center;
+
+
+    }
+
+    h1 {
+        font-size: 1.3rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    .brandname {
+        font-size: 1.4rem;
+        font-family: 'Audiowide';
+        color: #fff;
+    }
+
+    .bkp-btn {
+        font-size: 1rem;
+    }
+
+    .btn-collapse {
+    margin-right: 20px;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 1173px) and (max-width: 1273px) {
+    .firstimi {
+        width: 100%;
+
+    }
+    
+
+    .secondimi {
+        width: 100%;
+
+    
+    }
+
+    .box1 {
+        text-align: center;
+
+ 
+    }
+   
+    .h1txt {
+        font-size: 2.2rem;
+        color: black;
+    }
+
+    .isttxt {
+        font-size: 2rem;
+    }
+    .box2 {
+        
+        text-align: center;
+
+
+    }
+
+    h1 {
+        font-size: 1.3rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    .brandname {
+        font-size: 1.4rem;
+        font-family: 'Audiowide';
+        color: #fff;
+    }
+
+    .bkp-btn {
+        font-size: 1rem;
+    }
+
+    .btn-collapse {
+    margin-right: 20px;
+    }
+
+
+}
+
+
+
+@media only screen and (min-width: 1273px) and (max-width: 1373px) {
+    .firstimi {
+        width: 100%;
+
+    }
+    
+
+    .secondimi {
+        width: 100%;
+
+    
+    }
+
+    .box1 {
+        text-align: center;
+
+ 
+    }
+   
+    .h1txt {
+        font-size: 2.2rem;
+        color: black;
+    }
+
+    .isttxt {
+        font-size: 2rem;
+    }
+    .box2 {
+        
+        text-align: center;
+
+
+    }
+
+    h1 {
+        font-size: 1.3rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    .brandname {
+        font-size: 1.4rem;
+        font-family: 'Audiowide';
+        color: #fff;
+    }
+
+    .bkp-btn {
+        font-size: 1rem;
+    }
+
+    .btn-collapse {
+    margin-right: 20px;
+    }
+
+
+}
+
+
+
+@media only screen and (min-width: 1374px) and (max-width: 1474px) {
+    .firstimi {
+        width: 100%;
+
+    }
+    
+
+    .secondimi {
+        width: 100%;
+
+    
+    }
+
+    .box1 {
+        text-align: center;
+
+ 
+    }
+   
+    .h1txt {
+        font-size: 2.2rem;
+        color: black;
+    }
+
+    .isttxt {
+        font-size: 2rem;
+    }
+    .box2 {
+        
+        text-align: center;
+
+
+    }
+
+    h1 {
+        font-size: 1.3rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    .brandname {
+        font-size: 1.4rem;
+        font-family: 'Audiowide';
+        color: #fff;
+    }
+
+    .bkp-btn {
+        font-size: 1rem;
+    }
+
+    .btn-collapse {
+    margin-right: 20px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media only screen and (max-width: 300px){
+
+    .firstimi {
+        width: 10px;
+    }
+    
+    .secondimi {
+        width: 10px;
+    }
+
+    td {
+        padding-left: 6px;
+    }
+ 
 }
 
 @media only screen and (max-width: 600px) {
 .firstimi {
-    width: 100%;
+    width: 250px;
 }
 
 .secondimi {
-    width: 100%;
+    width: 250px;
 }
 }
 
 #myM0dal {
     color: black;
-}
+} */

@@ -110,9 +110,6 @@ filter: brightness(0.6);
    
 }
 
-.carditself {
-    padding-left: 2px;
-}
 
 
 
@@ -196,10 +193,11 @@ filter: brightness(0.6);
   }
 
 #textsmall {
-     background-color: #2E4F4F;
+     background-color: #FFF6F6;
      padding-top: 10px;
      padding-bottom: 10px;
-     color: #fff;
+     color: black;
+    
      
 }
 
@@ -249,7 +247,7 @@ p{
 
     padding-top: 10px;
     padding-bottom: 10px;
-
+    text-align: center;
 }
 
 .thirdtext1 {
@@ -301,7 +299,7 @@ p{
 }
 
 #clients {
-    background-color: #ffffdd;
+    background-color: #DCF2F1;
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
@@ -318,7 +316,7 @@ p{
 
 
 #breakdown {
-    background-color: #B6BBC4;
+    background-color: #fff;
     padding-bottom: 100px;
     padding-top: 50px;
     
@@ -333,9 +331,10 @@ p{
     padding-left: 10px;
 }
 
-.foot1 {
+#footi {
     padding-top: 20px;
     padding-left: 20px;
+    background-color: black;
 
 }
 
@@ -429,15 +428,6 @@ color: #fff;
   overflow: hidden;
 }
 
-.nava11 {
-  float: right;
-  display: block;
-  color: gray;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
 
 .facebook1 {
 color: 	#1877F2;
@@ -458,17 +448,242 @@ background-color: #fff;
 color: #0077b5;
 background-color: #fff;
 }
-.nava11:hover {
- 
-  color: blue;
-}
 
-@media screen and (max-width: 750px) {
-  .nava11 {
-            
+
+.c-item {
+  height: 500px;
+  width: 100%;
+  }
+  
+
+  /* @media only screen and (min-width: 278px) and (max-width: 299px) { 
+
+
+    .appimi1 {
+      width: 170px;
+    }
+  
+    .appimi2 {
+      width: 170px;
+    } 
+  
+    .appimi3 {
+      width: 170px;
+    }
+  
+    .appimi4 {
+      width: 170px;
+    }
+
+    
+
+
+  } */
+
+@media only screen and (min-width: 300px) and (max-width: 390px) { 
+
+  .appimi1 {
+    width: 170px;
+  }
+
+  .appimi2 {
+    width: 170px;
+  } 
+
+  .appimi3 {
+    width: 170px;
+  }
+
+  .appimi4 {
+    width: 170px;
+  }
+
+  .symbol {
     width: 100%;
 }
 
+.totruck {
+  width: 100%;
+}
+
+.image2 {
+  width: 100%;
+}
+
+.map {
+  width: 100%;
+}
+
+.brdlogo {
+  width: 100%;
+}
+
+}
+
+@media only screen and (min-width: 500px) and (max-width: 750px) { 
+
+  .appimi1 {
+    width: 170px;
+  }
+
+  .appimi2 {
+    width: 170px;
+  } 
+
+  .appimi3 {
+    width: 170px;
+  }
+
+  .appimi4 {
+    width: 170px;
+  }
+
+  
+.totruck {
+  width: 100%;
+}
+
+.image2 {
+  width: 100%;
+}
+
+.map {
+  width: 100%;
+}
+
+.brdlogo {
+  width: 100%;
+}
+
+
+}
+
+@media only screen and (min-width: 751px) and (max-width: 850px) {
+
+  .nava11 {
+            
+    width: 100%;
+
+
+}
+
+.symbol {
+      width: 100%;
+}
+
+  
+
+.totruck {
+  width: 100%;
+}
+
+.image2 {
+  width: 100%;
+}
+
+.map {
+  width: 100%;
+}
+
+.brdlogo {
+  width: 100%;
+}
+
+.nav1br {
+float: left;
+width: 100%;
+color: #fff;
+}
+
+.hedd1 {
+font-size: 1rem;
+}
+
+
+.image2 {
+  width: 100%;
+}
+
+.symbol {
+  width: 100%;
+  padding-left: 10px;
+}
+
+.map {
+  width: 100%;
+  padding: 0;
+
+
+}
+
+.brdlogo {
+  width: 100%;
+}
+
+.totruck {
+  width: 280px;
+}
+
+.navbar-toggler {
+  width: 70px;
+  margin-right: 10px;
+}
+
+
+
+.btn-collapse {
+  margin-right: 20px;
+  }
+
+  .appimi1 {
+    width: 100px;
+  }
+
+  .appimi2 {
+    width: 100px;
+  } 
+
+  .appimi3 {
+    width: 100px;
+  }
+
+  .appimi4 {
+    width: 100px;
+  }
+}
+
+
+
+@media only screen and (min-width: 851px) and (max-width: 960px) {
+
+  .nava11 {
+            
+    width: 100%;
+
+
+}
+
+
+.totruck {
+  width: 100%;
+}
+
+.image2 {
+  width: 100%;
+}
+
+.map {
+  width: 100%;
+}
+
+.brdlogo {
+  width: 100%;
+}
+
+
+.symbol {
+      width: 200px;
+}
 
   
 .nav1br {
@@ -481,16 +696,9 @@ color: #fff;
 font-size: 1rem;
 }
 
-.hedd1 {
-padding-left: 35%;
-}
-
-.hedd11 {
-padding-left: 25%;
-}
 
 .image2 {
-  width: 200px;
+  width: 100%;
 }
 
 .symbol {
@@ -499,14 +707,14 @@ padding-left: 25%;
 }
 
 .map {
-  width: 280px;
+  width: 100%;
   padding: 0;
 
 
 }
 
 .brdlogo {
-  width: 300px;
+  width: 100%;
 }
 
 .totruck {
@@ -517,9 +725,26 @@ padding-left: 25%;
   width: 70px;
   margin-right: 10px;
 }
-.card-img-top {
-  padding-right: 20px;
-}
 
-}
 
+
+.btn-collapse {
+  margin-right: 20px;
+  }
+
+  .appimi1 {
+    width: 100px;
+  }
+
+  .appimi2 {
+    width: 100px;
+  } 
+
+  .appimi3 {
+    width: 100px;
+  }
+
+  .appimi4 {
+    width: 100px;
+  }
+}
