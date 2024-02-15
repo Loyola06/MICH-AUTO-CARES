@@ -49,6 +49,26 @@
     padding-left: 70px;
    
 }
+
+/* loading animation start */
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  border-top-color: #007bff;
+  /* Change this color to match your desired color */
+  animation: spin 1s linear infinite;
+  display: none;
+  
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* loading animation ends */
 #carouselid {
     
     padding-top: 1px;
