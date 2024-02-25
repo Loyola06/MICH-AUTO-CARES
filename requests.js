@@ -3,7 +3,7 @@ const date = document.getElementById("cdate");
 const email = document.getElementById("email");
 const phone = document.getElementById("teli");
 const message = document.getElementById("message");
-const baseUrl = "https://mich-auto-backend.onrender.com/api";
+const baseUrl = "https://mich-auto-care-backend.onrender.com/api";
 
 const sendAppointment = async () => {
   try {
