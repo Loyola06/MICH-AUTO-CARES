@@ -1,7 +1,7 @@
 
 
 #firstsection {
-    background-color: #283149;
+    background-color: #070F2B;
  
    
 }
@@ -49,26 +49,6 @@
     padding-left: 70px;
    
 }
-
-/* loading animation start */
-.circle {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  border: 2px solid #ccc;
-  border-top-color: #007bff;
-  /* Change this color to match your desired color */
-  animation: spin 1s linear infinite;
-  display: none;
-  
-}
-
-@keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
-}
-/* loading animation ends */
 #carouselid {
     
     padding-top: 1px;
@@ -121,7 +101,7 @@ filter: brightness(0.6);
 
 
 #cardd {
-    background-color: #FFF6F6;
+    background-color: silver;
     padding-top: 30px;
     color: black;
     padding-bottom: 30px;
@@ -213,7 +193,7 @@ filter: brightness(0.6);
   }
 
 #textsmall {
-     background-color: #FFF6F6;
+     background-color: #fff;
      padding-top: 10px;
      padding-bottom: 10px;
      color: black;
@@ -223,7 +203,7 @@ filter: brightness(0.6);
 
 
 #whywe {
-    background-color: #CBE4DE;
+    background-color: silver;
      
 }
 .text1 {
@@ -268,6 +248,7 @@ p{
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
+    background-color: #fff;
 }
 
 .thirdtext1 {
@@ -297,17 +278,18 @@ p{
  
 #brandssec {
 
-    background-color: #ffeed9;
+    background-color: #03001C;
     padding-top: 10px;
+    padding-bottom: 5px;
+    color: #fff;
 }
 
 
 .symbol {
         width: 400px;
-        background-color: #ffeed9;
+padding-top: 20px;
         object-fit: cover;
         height: 200px;
-        padding-top: 20px;
 }
 
 .listsymbol {
@@ -319,10 +301,11 @@ p{
 }
 
 #clients {
-    background-color: #DCF2F1;
+    background-color: #fff;
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
+    color: black;
 }
 
 .clienttext {
@@ -336,7 +319,7 @@ p{
 
 
 #breakdown {
-    background-color: #fff;
+    background-color: #03001C;
     padding-bottom: 100px;
     padding-top: 50px;
     
@@ -451,22 +434,22 @@ color: #fff;
 
 .facebook1 {
 color: 	#1877F2;
-background-color: #fff;
+background-color: black;
 }
 
 .twitter1 {
 color:  #1DA1F2;
-background-color: #fff;
+background-color: black;
 }
 
 .instagram1 {
 color:  #cd486b ;
-background-color: #fff;
+background-color: black;
 }
 
 .linkedin1 {
 color: #0077b5;
-background-color: #fff;
+background-color: black;
 }
 
 

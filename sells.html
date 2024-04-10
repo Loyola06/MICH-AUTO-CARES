@@ -21,7 +21,6 @@
     https://cdn.jsdelivr.net/npm/split-type@0.3.4/umd/index.min.js
     "></script>
     <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.29/bundled/lenis.min.js"></script> 
-    <script src="requests.js" defer></script>
 </head>
 
 <body>
@@ -75,7 +74,7 @@
                     
                           <!-- Modal body -->
                           <div class="modal-body">
-                           <form>
+                           <form method="post" enctype="text/plain" action="mailto:michautocares@gmail.com">
                            <div class="row">
                             <div class="col-sm-6">
                               <p class="booking" style="font-family: 'Balsamiq Sans';">Name</p>
@@ -92,7 +91,7 @@
                                             <div class="col-sm-6">
                                                    <p class="booking" style="font-family: 'Balsamiq Sans';">Email Address</p>
                         
-                                                <input type="email" name="mail" id="email" placeholder="Your Email" required>
+                                                <input type="email" name="mail" placeholder="Your Email" required>
                             <hr>
                                    <p class="booking" style="font-family: 'Balsamiq Sans';">Phone Number</p>
                                 <input type="tel" name="teli" id="teli" placeholder="Number"required>
@@ -103,10 +102,8 @@
                                        </div>
                                                </div>
                                                      <hr>
-                                                         <div id="loading"class="circle"></div>
-
                                                          <!-- <button type="button" class="subi btn btn-danger btn-lg" data-bs-dismiss="modal">Submit</button> -->
-                                                          <input type="button" class="subi btn btn-danger btn-lg" value="Submit" name="submit" id="" onclick="sendAppointment()">
+                                                         <input type="submit" class="subi btn btn-danger btn-lg" name="submit" id="">
                     
                  
               
@@ -142,20 +139,20 @@
               <div class="chck row" >
                   <div class="box1 col-sm-6"> 
                      <h1 class="isttxt" style="font-size: 1.5rem;"> <u>Personal Information:</u></h1>
-                      <form>
+                      <form method="post" enctype="text/plain" action="mailto:michautocares@gmail.com">
                         <h1 class="h1txt" style="font-size: 1.1rem;">Full Name</h1>
                   
-                          <input type="text" name="Name" id="sname"required placeholder="Full Name">
+                          <input type="text" name="Name" id="Name"required placeholder="Full Name">
                         <br>
                       <br>
                         <h1 class="h1txt" style="font-size: 1.1rem;">Phone Number</h1>
       
-                          <input type="tel" name="Phone Number" id="PhoneNumber" required placeholder="Phone Number">
+                          <input type="tel" name="Phone Number" id="Phone Number" required placeholder="Phone Number">
                           <br>
                           <br>
                           <h1 class="h1txt" style="font-size: 1.1rem;">City</h1>
                 
-                          <input type="text" name="City" id="city"  required placeholder="City">
+                          <input type="text" name="City" id="City"  required placeholder="City">
                           
                           <br>
                  
@@ -164,13 +161,13 @@
                       <br>
                       <h1 class="h1txt" style="font-size: 1.1rem;">Model</h1>
               
-                      <input type="text" name="Model" id="model" required placeholder="Model">
+                      <input type="text" name="Model" id="Model" required placeholder="Model">
                       <br>
                       <br>
                     
                       <label for="Year">       <h1 class="h1txt" style="font-size: 1.1rem;">Select a year:</h1></label>
                       <br>
-<select name="Year" id="year">
+<select name="Year" id="Year">
 <option value="2023">2023</option>
 <option value="2022">2022</option>
 <option value="2021" selected>2021</option>
@@ -198,7 +195,7 @@
                      
                       <h1 class="h1txt" style="font-size: 1.1rem;" >VIN(Vehicle Identification Number)</h1>
                 
-                      <input type="number" name="VIN (Vehicle Identification Number)" id="vin" required>
+                      <input type="text" name="VIN (Vehicle Identification Number)" id="VIN (Vehicle Identification Number)" required>
                       <br>
               
                       <h1 class="isttxt" style="font-size: 1.5rem;"><u>Condition of the Car:</u></h1>
@@ -206,10 +203,10 @@
          
                       <label for="Internal Condition">       <h1 class="h1txt" style="font-size: 1.1rem;">Internal Condition:</h1></label>
                       <br>
-                      <select name="Internal Condition" id="internalCondition">
-                        <option value="good">Good </option>
-                        <option value="fair">Fair</option>
-                        <option value="bad" selected>Bad</option>
+                      <select name="Internal Condition" id="Internal Condition">
+                        <option value="Good">Good </option>
+                        <option value="Fair">Fair</option>
+                        <option value="Bad" selected>Bad</option>
                      
                       </select>
 
@@ -218,10 +215,10 @@
                       
                       <label for="Mechanical Condition"><h1 class="h1txt" style="font-size: 1.1rem;">Mechanical Condition:</h1></label>
            <br>
-                      <select name="Mechanical Condition" id="mechanicalCondition">
-                        <option value="good">Good </option>
-                        <option value="fair">Fair</option>
-                        <option value="bad" selected>Bad</option>
+                      <select name="Mechanical Condition" id="Mechanical Condition">
+                        <option value="Good">Good </option>
+                        <option value="Fair">Fair</option>
+                        <option value="Bad" selected>Bad</option>
                      
                       </select>
                     
@@ -233,9 +230,9 @@
                       <br>
                       <label for="Transmission Type">       <h1 class="h1txt" style="font-size: 1.1rem;">Transmission</h1></label>
                       <br>
-                      <select name="Transmission Type" id="transmission">
-                        <option value="manual transmission">Manual Transmission </option>
-                        <option value="automatic transmission">Automatic Transmission</option>
+                      <select name="Transmission Type" id="Transmission Type">
+                        <option value="Manual Transmission">Manual Transmission </option>
+                        <option value="Automatic Transmission">Automatic Transmission</option>
                 
                      
                       </select>
@@ -244,7 +241,7 @@
                       <br>
                       <h1 class="h1txt" style="font-size: 1.1rem;">Color</h1>
              
-                      <input type="text" name="Color" id="color"  required placeholder="Color">
+                      <input type="text" name="Color" id="Color"  required placeholder="Color">
                       
               <br>
                       <br>
@@ -252,7 +249,7 @@
                       <br>
                       <h1 class="h1txt" style="font-size: 1.1rem;">Regular Maintenance Records</h1>
                 
-                      <input type="text" name="Regular Maintenance Records" id="maintainanceRecord">
+                      <input type="text" name="Regular Maintenance Records" id="Regular Maintenance Records">
                       <br>
               
                       
@@ -260,9 +257,9 @@
                   
                     <label for="Any Negotiation Room">       <h1 class="h1txt" style="font-size: 1.1rem;">Negotiation</h1></label>
                     <br>
-                    <select name="Any Negotiation Room" id="negotiation">
-                      <option value="yes">Yes</option>
-                      <option value="no">No</option>
+                    <select name="Any Negotiation Room" id="Any Negotiation Room">
+                      <option value="Yes">Yes</option>
+                      <option value="No">No</option>
                    
                     </select>
                  <br>
@@ -274,37 +271,37 @@
                       <br>
                       <h1 class="h1txt" style="font-size: 1.1rem;">Email Address</h1>                 
               
-                      <input type="email" name="Email" id="semail"  required>
+                      <input type="email" name="Email" id="Email"  required>
                       <br>
                       <br>
-                      <h1 class="h1txt" style="font-size: 1.1rem;">Sale Date</h1>     
+                      <h1 class="h1txt" style="font-size: 1.1rem;">Date</h1>     
                   
-                      <input type="date" name="Date" id="date" placeholder="Date:" required>
+                      <input type="date" name="Date" id="Date" placeholder="Date:" required>
                       <br>
                       <br>
                       <h1 class="h1txt" style="font-size: 1.1rem;">State</h1>     
-                      <input type="text" name="State" id="state" required>
+                      <input type="text" name="State" id="State" required>
                       <br>
                       <br>
                      
 <br>
 <br>
 <h1 class="h1txt" style="font-size: 1.1rem;">Title Status</h1>     
-                      <input type="text" name="Title Status" id="title">
+                      <input type="text" name="Title Status" id="Title Status">
                       <br>
                       <br>
                       <h1 class="h1txt"style="font-size: 1.1rem;" >Make</h1>     
-                      <input type="text" name="Make" id="make"  required>
+                      <input type="text" name="Make" id="Make"  required>
                       <br>
                       <br>
                  
                    
                       <label for="External Condition">       <h1 class="h1txt" style="font-size: 1.1rem;">External Condition</h1>     </label>
                       <br>
-                      <select name="External Condition" id="externalCondition">
-                       <option value="good">Good </option>
-                        <option value="fair">Fair</option>
-                        <option value="bad" selected>Bad</option>
+                      <select name="External Condition" id="External Condition">
+                        <option value="Good">Good </option>
+                        <option value="Fair">Fair</option>
+                        <option value="Bad" selected>Bad</option>
                      
                       </select>
                       <br>
@@ -312,27 +309,27 @@
                       
                       <label for="Any Accidents or Damage History">       <h1 class="h1txt" style="font-size: 1.1rem;">Accidents or damage</h1>     </label>
                       <br>
-                      <select name="Any Accidents or Damage History" id="accident">
-                        <option value="yes">Yes 
+                      <select name="Any Accidents or Damage History" id="Any Accidents or Damage History">
+                        <option value="Yes">Yes 
                           
                         </option>
-                        <option value="no">No</option>
+                        <option value="No">No</option>
                         </select>
                   <br>
                   <br>
     
       
       <h1 class="h1txt" style="font-size: 1.1rem;">Engine Size</h1>     
-                  <input type="text" name="Engine Size" id="engineSize" required>
+                  <input type="text" name="Engine Size" id="Engine Size" required>
                   <br>
                   <br>
                   <br>
                   
                   <label for="Fuel Type">       <h1 class="h1txt" style="font-size: 1.1rem;">Fuel type</h1>     </label>
                <br>
-                  <select name="Fuel Type" id="fuelType">
-                    <option value="gasoline">Gasoline (Petrol)</option>
-                    <option value="diesel">Diesel</option>
+                  <select name="Fuel Type" id="Fuel Type">
+                    <option value="Gasoline (Petrol)">Gasoline (Petrol)</option>
+                    <option value="Diesel">Diesel</option>
                 
                   </select>
                   <br>
@@ -342,9 +339,9 @@
                 
                  <label for="Recent Repairs or Upgrades">        <h1 class="h1txt" style="font-size: 1.1rem;">Recent Upgrades</h1>     </label>
                  <br>
-                 <select name="Recent Repairs or Upgrades" id="recentUpgrade">
-                   <option value="yes">Yes</option>
-                   <option value="no">No</option>
+                 <select name="Recent Repairs or Upgrades" id="Recent Repairs or Upgrades">
+                   <option value="Yes">Yes</option>
+                   <option value="No">No</option>
                 
                  </select>
                  <br>
@@ -356,9 +353,10 @@
                
                  <label for=" Availability for Test Drive">       <h1 class="h1txt" style="font-size: 1.1rem;">Test Drive</h1>     </label>
                  <br>
-                 <select name=" Availability for Test Drive" id="testDrive">
-                  <option value="yes">Yes</option>
-                   <option value="no">No</option>
+                 <select name=" Availability for Test Drive" id=" Availability for Test Drive">
+                   <option value="Yes">Yes</option>
+                   <option value="No">No</option>
+                
                  </select>
            
           
@@ -368,9 +366,9 @@
           <br>
                 <label for="Confirmation that the information provided is accurate">        <h1 class="h1txt" style="font-size: 1.1rem;">Confirmation:</h1>     </label>
                 <br>
-                <select name="Confirmation that the information provided is accurate" id="confirmation">
-                  <option value="yes">Yes</option>
-                   <option value="no">No</option>
+                <select name="Confirmation that the information provided is accurate" id="Confirmation that the information provided is accurate">
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
                
                 </select>
         
@@ -381,10 +379,8 @@
              <br>
           
              <br>
-                                                         <div id="loader"class="circle"></div>
-
              <br>
-             <input type="button" onclick="sendSellRequest()" class="btn btn-dark btn-lg" value="submit" id="submit">
+             <input type="submit" onclick="uploadAndSendEmail()" class="btn btn-dark btn-lg" name="submit" id="submit">
              <br>
              <br> 
 
@@ -479,7 +475,6 @@
  
    
 </section>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.7/axios.min.js" integrity="sha512-NQfB/bDaB8kaSXF8E77JjhHG5PM6XVRxvHzkZiwl3ddWCEPBa23T76MuWSwAJdMGJnmQqM0VeY9kFszsrBEFrQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 
 </html>
