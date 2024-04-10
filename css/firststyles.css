@@ -335,10 +335,7 @@ padding-top: 20px;
 }
 
 #footi {
-    padding-top: 20px;
-    padding-left: 20px;
-    background-color: black;
-
+  color: black;
 }
 
 .last {
@@ -410,9 +407,7 @@ padding-top: 20px;
     background-color: #1B4242;
 }
 
-#lastsec {
-  background-color: grey;
-}
+
 
 
 .hedd1 {
